@@ -123,13 +123,13 @@ body {
 	background-image: url('/img/aboutUs/WEAREOPEN1.png');
 	background-size: cover;
 	/* min-height: 100vh; */
+	padding-top: 100px;
 }
 
 .about-us__page {
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
-	padding: 100px 0px;
 }
 .about-us__pictures {
 	position: relative;
@@ -149,9 +149,9 @@ body {
 	padding: 15px;
 }
 .about-us__pic3 {
-	position: absolute;
+	position: relative;
 
-	top: 175px;
+	top: -135px;
 	left: 160px;
 
 	border: 15px solid #fff;
@@ -198,4 +198,189 @@ body {
 .about-us__btn-link {
 	padding: 18px 53px;
 	background-color: #fbb034;
+}
+
+.book_now {
+	background-image: url('/img/Book Now/Rectangle 7.png');
+	padding: 115px 0px 115px 0px;
+}
+.book_now__page {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.book_now__text {
+	display: flex;
+	flex-direction: column;
+}
+.book_now__text-up {
+	color: #fbb034;
+
+	font-family: Jost;
+	font-size: 18px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 106.5%;
+	margin-bottom: 12px;
+}
+.book_now__text-middle {
+	color: #fff;
+
+	font-family: Poppins;
+	font-size: 48px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 94.5%;
+	margin-bottom: 28px;
+
+	width: 586px;
+}
+.book_now__text-down {
+	color: #b8b8b8;
+
+	font-family: Poppins;
+	font-size: 20px;
+	font-style: normal;
+	font-weight: 500;
+	line-height: 94.5%;
+	margin-bottom: 54px;
+
+	width: 339px;
+}
+.book_now__btn {
+	display: flex;
+}
+
+.book_now__btn-link {
+	padding: 18px 53px;
+	background-color: #fbb034;
+	color: #fff;
+
+	font-family: Poppins;
+	font-size: 15px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 106.5%;
+}
+.call-now {
+	background-color: #fff;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+
+	padding: 60px 80px 60px 80px;
+}
+.call-now__img-background {
+	background-color: #e8e8e8;
+	border-radius: 100px;
+	margin-bottom: 11px;
+}
+.call-now_img {
+	padding: 29px 33px;
+}
+.call-now__text {
+	color: #b8b8b8;
+
+	font-family: Poppins;
+	font-size: 20px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 94.5%;
+
+	margin-bottom: 8px;
+}
+
+.call-now__number {
+	color: #000;
+
+	font-family: Poppins;
+	font-size: 24px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 94.5%;
+}
+
+.working-days {
+}
+.working-days__page {
+	display: flex;
+}
+.working-days__img {
+}
+.working-days__text {
+	background-color: #fbb034;
+	flex: 1 1 auto;
+	padding: 60px 148px 86px 46px;
+}
+.working-days__title {
+	color: #fff;
+
+	font-family: Poppins;
+	font-size: 42px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 94.5%;
+
+	margin-bottom: 5px;
+}
+.working-days__subtitle {
+	color: #000;
+
+	font-family: Jost;
+	font-size: 28px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 106.5%;
+
+	margin-bottom: 35px;
+}
+
+.week-space,
+.week-space1 {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+
+	border-bottom: dashed 1px black;
+}
+
+.week-space {
+	margin-bottom: 41px;
+}
+
+.week-space__elem {
+	color: #fff;
+
+	font-family: Poppins;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 94.5%;
+	padding-bottom: 5px;
+}
+.time {
+	color: #000;
+
+	font-family: Poppins;
+	font-size: 13px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 94.5%;
+}
+.working-day__btn {
+	display: flex;
+}
+.working-day__link {
+	color: #000;
+
+	font-family: Jost;
+	font-size: 18px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 106.5%;
+
+	border: 1px solid black;
+	padding: 10px 43px;
+	margin-top: 43px;
 }
