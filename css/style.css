@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 a {
 	text-decoration: none;
 	color: black;
@@ -23,6 +25,9 @@ body {
 	background-attachment: fixed;
 	position: relative;
 	color: white;
+	font-size: 18px;
+	font-style: normal;
+	font-weight: 700;
 }
 
 .header {
@@ -115,6 +120,82 @@ body {
 }
 
 .about-us {
-	min-height: 100vh;
+	background-image: url('/img/aboutUs/WEAREOPEN1.png');
+	background-size: cover;
+	/* min-height: 100vh; */
+}
+
+.about-us__page {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 100px 0px;
+}
+.about-us__pictures {
+	position: relative;
+	margin-left: 110px;
+}
+
+.about-us__up-pictures {
+	position: relative;
+}
+
+.about-us__pic1 {
+	padding: 15px;
+}
+.about-us__pic2 {
+	position: absolute;
+	top: 0;
+	padding: 15px;
+}
+.about-us__pic3 {
+	position: absolute;
+
+	top: 175px;
+	left: 160px;
+
+	border: 15px solid #fff;
+}
+
+.about-us__text {
+	display: flex;
+	flex-direction: column;
+	margin-right: 100px;
+}
+.about-us__text-upper {
+	color: #fbb034;
+	font-size: 18px;
+	font-style: normal;
+	font-weight: 400;
+
+	margin-bottom: 24px;
+}
+.about-us__text-middle {
+	color: #000;
+
+	font-family: Poppins;
+	font-size: 48px;
+	font-style: normal;
+	font-weight: 700;
+	width: 480px;
+	margin-bottom: 13px;
+	line-height: 45px;
+}
+.about-us__text-down {
+	color: #565656;
+	font-size: 18px;
+	font-style: normal;
+	font-weight: 401;
+	font-family: Jost;
+	margin-bottom: 43px;
+	line-height: 94.5%;
+	width: 401px;
+}
+.about-us__btn {
+	display: flex;
+}
+
+.about-us__btn-link {
+	padding: 18px 53px;
 	background-color: #fbb034;
 }
