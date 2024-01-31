@@ -61,12 +61,63 @@ body {
 	display: flex;
 	align-items: center;
 }
+
 .header__burger {
-	display: none;
+	
+}
+
+body.active{
+	overflow: hidden;
+}
+.header.active {
+	padding: 0;
+}
+.header__body.active{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: start;
+
+	min-height: 100vh;
+	background-color: #ca8d2a;
+
+	overflow: hidden;
+	padding: 20px;
+}
+.header__menu.active{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+
+	font-size: 20px;
+}
+
+.header__right.active{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	padding-top: 100px;
 }
 
 .header__menu.active{
-	display: block;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+
+	font-size: 30px;
+}
+
+.header__btn.active{
+	margin: 0;
+	font-size: 40px;
+}
+
+.container.active{
+	padding: 0;
+	margin: 0;
 }
 
 .header__menu-item {
@@ -223,6 +274,8 @@ body {
 .book_now__text {
 	display: flex;
 	flex-direction: column;
+	max-width: 586px;
+	width: 100%;
 }
 .book_now__text-up {
 	color: #fbb034;
@@ -244,7 +297,7 @@ body {
 	line-height: 94.5%;
 	margin-bottom: 28px;
 
-	width: 586px;
+	
 }
 .book_now__text-down {
 	color: #b8b8b8;
@@ -255,8 +308,6 @@ body {
 	font-weight: 500;
 	line-height: 94.5%;
 	margin-bottom: 54px;
-
-	width: 339px;
 }
 .book_now__btn {
 	display: flex;
