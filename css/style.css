@@ -61,6 +61,14 @@ body {
 	display: flex;
 	align-items: center;
 }
+.header__burger {
+	display: none;
+}
+
+.header__menu.active{
+	display: block;
+}
+
 .header__menu-item {
 	padding: 18px 53px;
 }
@@ -163,7 +171,8 @@ body {
 	display: flex;
 	flex-direction: column;
 	margin-right: 100px;
-
+	max-width: 480px;
+	width: 100%;
 	margin-top: -150px;
 }
 .about-us__text-upper {
@@ -181,7 +190,6 @@ body {
 	font-size: 48px;
 	font-style: normal;
 	font-weight: 700;
-	width: 480px;
 	margin-bottom: 13px;
 	line-height: 45px;
 }
@@ -193,7 +201,6 @@ body {
 	font-family: Jost;
 	margin-bottom: 43px;
 	line-height: 94.5%;
-	width: 401px;
 }
 
 .about-us__btn-link {
@@ -625,23 +632,22 @@ body {
 }
 .main__subscribe-text {
 }
-.subscribe__email-input{
+.subscribe__email-input {
 	background-color: black;
 	border: none;
 	padding: 10px 0 20px 0;
 	color: #fff;
-	appearance: none;  
+	appearance: none;
 }
 
 .subscribe__email-input:focus {
- outline: none;
+	outline: none;
 }
 
-.subscribe__email-input:after{
+.subscribe__email-input:after {
 	content: '';
 	background-image: url('/img/footer/Submit.png');
 }
-
 
 .main__subscribe-email {
 	color: #9b9b9b;
@@ -667,7 +673,7 @@ body {
 	line-height: normal;
 	letter-spacing: -0.205px;
 }
-.services__item-link:hover{
+.services__item-link:hover {
 	color: #fbb034;
 }
 
@@ -687,7 +693,7 @@ body {
 	letter-spacing: -0.205px;
 }
 
-.about__item-link:hover{
+.about__item-link:hover {
 	color: #fbb034;
 }
 
@@ -706,7 +712,7 @@ body {
 	line-height: normal;
 	letter-spacing: -0.205px;
 }
-.help__item-link:hover{
+.help__item-link:hover {
 	color: #fbb034;
 }
 

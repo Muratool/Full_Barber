@@ -1,0 +1,93 @@
+@media (max-width: 1595px) {
+	.start__page-mans {
+		height: 700px;
+	}
+	.container {
+		padding: 0px 30px;
+	}
+}
+
+@media (max-width: 1270px) {
+	.start__page-mans {
+		display: none;
+	}
+	.about-us__page {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+
+		padding-bottom: 115px;
+	}
+
+	.about-us__pic2 {
+		position: absolute;
+		top: 15px;
+		padding: 0;
+	}
+
+	.about-us__pictures {
+		position: relative;
+		margin-left: 0;
+		display: flex;
+		margin-right: 142px;
+	}
+
+	.about-us__pic3 {
+		position: relative;
+
+		top: 0;
+		right: 0;
+	}
+	.about-us__text {
+		display: block;
+		margin-top: 0px;
+		margin: 0 auto;
+		text-align: center;
+	}
+
+	.working-days__page {
+		display: block;
+
+		background-image: url('/img/working_days/unsplash_MUdB4YzDeKA.png');
+		background-size: cover;
+		background-attachment: fixed;
+	}
+	.working-days__page img {
+		display: none;
+	}
+
+	.working-days__text {
+		background-color: #fbb034;
+		opacity: 0.9;
+		flex: 1 1 auto;
+		padding: 60px 148px 86px 46px;
+	}
+
+	.testimonials {
+		padding: 54px 0px 131px;
+		position: relative;
+	}
+	.testimonials__page {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		position: relative;
+	}
+
+	.testimonials-text {
+		max-width: 419px;
+		width: 100%;
+		text-align: center;
+		padding-bottom: 40px;
+	}
+
+	.header__menu {
+		display: none;
+	}
+
+	.header__burger {
+		display: block;
+	}
+}
