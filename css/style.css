@@ -21,7 +21,7 @@ body {
 
 .fullscreen-start-page {
 	min-height: 100vh;
-	background: url('/img/background.jpg');
+	background: url('../img/background.jpg');
 	background-size: cover;
 	background-attachment: fixed;
 	position: relative;
@@ -62,17 +62,13 @@ body {
 	align-items: center;
 }
 
-.header__burger {
-	
-}
-
-body.active{
+body.active {
 	overflow: hidden;
 }
 .header.active {
 	padding: 0;
 }
-.header__body.active{
+.header__body.active {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
@@ -84,7 +80,7 @@ body.active{
 	overflow: hidden;
 	padding: 20px;
 }
-.header__menu.active{
+.header__menu.active {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
@@ -93,7 +89,7 @@ body.active{
 	font-size: 20px;
 }
 
-.header__right.active{
+.header__right.active {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
@@ -101,7 +97,7 @@ body.active{
 	padding-top: 100px;
 }
 
-.header__menu.active{
+.header__menu.active {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
@@ -110,12 +106,12 @@ body.active{
 	font-size: 30px;
 }
 
-.header__btn.active{
+.header__btn.active {
 	margin: 0;
 	font-size: 40px;
 }
 
-.container.active{
+.container.active {
 	padding: 0;
 	margin: 0;
 }
@@ -181,7 +177,7 @@ body.active{
 }
 
 .about-us {
-	background-image: url('/img/aboutUs/WEAREOPEN1.png');
+	background-image: url('../img/aboutUs/WEAREOPEN1.png');
 	background-size: cover;
 	/* min-height: 100vh; */
 	padding-top: 100px;
@@ -260,7 +256,7 @@ body.active{
 }
 
 .book_now {
-	background-image: url('/img/Book Now/8195bb4c8f350018f694e94803c384dc.jpeg');
+	background-image: url('../img/BookNow/8195bb4c8f350018f694e94803c384dc.jpeg');
 	background-position: 50% 30%;
 	padding: 115px 0px 115px 0px;
 	background-attachment: fixed;
@@ -296,8 +292,6 @@ body.active{
 	font-weight: 700;
 	line-height: 94.5%;
 	margin-bottom: 28px;
-
-	
 }
 .book_now__text-down {
 	color: #b8b8b8;
@@ -522,7 +516,7 @@ body.active{
 		5px 14px 9px 0px rgba(0, 0, 0, 0.05), 9px 25px 10px 0px rgba(0, 0, 0, 0.01),
 		13px 38px 11px 0px rgba(0, 0, 0, 0);
 
-	background-image: url('/img/Testimonials/zapyatushki.png');
+	background-image: url('../img/Testimonials/zapyatushki.png');
 	background-repeat: no-repeat;
 	background-position: 50% 60%;
 }
@@ -561,7 +555,7 @@ body.active{
 }
 
 .affiliate {
-	background-image: url('/img/affiliate/affiliate-background.jpeg');
+	background-image: url('../img/affiliate/affiliate-background.jpeg');
 	background-size: cover;
 	background-position: 50% 40%;
 }
@@ -681,8 +675,6 @@ body.active{
 	max-width: 165px;
 	width: 100%;
 }
-.main__subscribe-text {
-}
 .subscribe__email-input {
 	background-color: black;
 	border: none;
@@ -697,7 +689,7 @@ body.active{
 
 .subscribe__email-input:after {
 	content: '';
-	background-image: url('/img/footer/Submit.png');
+	background-image: url('../img/footer/Submit.png');
 }
 
 .main__subscribe-email {
@@ -785,10 +777,4 @@ body.active{
 	line-height: normal;
 	letter-spacing: -0.205px;
 	gap: 39px;
-}
-.footer__text-terms {
-}
-.footer__text-privacy {
-}
-.footer__footer-icons {
 }
