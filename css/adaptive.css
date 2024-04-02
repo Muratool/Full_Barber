@@ -49,7 +49,7 @@
 	.working-days__page {
 		display: block;
 
-		background-image: url('/img/working_days/unsplash_MUdB4YzDeKA.png');
+		background-image: url('./img/working_days/unsplash_MUdB4YzDeKA.png');
 		background-size: cover;
 		background-attachment: fixed;
 	}
@@ -115,7 +115,7 @@
 		background: #fff;
 	}
 
-	.testimonials-cards{
+	.testimonials-cards {
 		flex-direction: column;
 	}
 }
@@ -147,14 +147,13 @@
 		font-size: 20px;
 	}
 
-	.about{
+	.about {
 		margin-bottom: 200px;
 	}
 
-	.services{
+	.services {
 		margin-bottom: 200px;
 	}
-
 
 	.about__item-link {
 		font-size: 40px;
@@ -175,19 +174,29 @@
 		padding-top: 100px;
 	}
 
-	.footer__head{
+	.footer__head {
 		flex-direction: column;
 	}
-	.footer__head-right{
+	.footer__head-right {
 		flex-direction: column;
 	}
 }
 
-@media (max-width: 511px){
-	.start-bage__btn__1{
+@media (max-width: 675px) {
+	.about-us__up-pictures {
+		display: none;
+	}
+
+	.about-us__pic3 {
+		display: none;
+	}
+}
+
+@media (max-width: 511px) {
+	.start-bage__btn__1 {
 		text-align: center;
 	}
-	.start-bage__btn__2{
+	.start-bage__btn__2 {
 		text-align: center;
 	}
 
@@ -204,10 +213,10 @@
 }
 
 @media (max-width: 425px) {
-	.start-bage__btn__1{
+	.start-bage__btn__1 {
 		text-align: center;
 	}
-	.start-bage__btn__2{
+	.start-bage__btn__2 {
 		text-align: center;
 	}
 
@@ -235,23 +244,23 @@
 		text-align: center;
 	}
 
-	.call-now__number{
+	.call-now__number {
 		text-align: center;
 	}
 
-	.kifti{
+	.kifti {
 		display: none;
 	}
 
-	.book_now__text-middle{
+	.book_now__text-middle {
 		font-size: 30px;
 	}
 
-	.start-page__title .container .main-text{
+	.start-page__title .container .main-text {
 		font-size: 30px;
 	}
 
-	.working-day__btn{
+	.working-day__btn {
 		align-items: center;
 		justify-content: center;
 	}
